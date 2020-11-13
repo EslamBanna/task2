@@ -1,0 +1,104 @@
+/* eslam ahmed ahmed esmail elbanna */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(../images/54.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1{
+    color: white;
+    display: inline;
+    margin-left: 20px;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    margin: 60px auto;
+    text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+aside{
+    float: right;
+    width: 20%;
+    height: 800px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+aside i{
+    font-size: 30px;
+    float: right;
+    margin-right: 50px;
+}
+aside ul{
+    list-style: none;
+}
+aside ul li{
+margin-bottom: 40px;
+}
+aside a{
+    text-decoration: none;
+    color: white;
+}
+aside i:hover{
+    cursor: pointer;
+}
+form{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 20px;
+ padding-bottom: 20px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px white;
+}
+form i{
+    position: absolute;
+    left: 20%;
+    font-size: 20px;
+}
+form i:first-of-type{
+    top: 32%;
+}
+form i:nth-of-type(2){
+    top:52%;
+    z-index: 1;
+}
+form h2{
+    color: royalblue;
+}
+form span{
+    color: slategray;
+    display: block;
+    margin-bottom: 20px;
+}
+input{
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 80%;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    outline: 0;
+    font-weight: bold;
+}
+input:first-of-type,input:nth-of-type(2){
+    box-shadow: inset 5px 5px 5px #CCC;
+}
+input[type='submit']{
+    background-color:royalblue ;
+    color:white;
+    box-shadow: 0;
+}
+input[type='submit']:hover{
+    cursor: pointer;
+}
